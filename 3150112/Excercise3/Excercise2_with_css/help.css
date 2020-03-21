@@ -1,0 +1,49 @@
+.description{
+    width: 150px;
+    height: 170px;
+	margin:20px;
+}
+.view{
+    background-color:sandybrown;
+    height: 100%;
+	width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table,th{
+    border:8px solid blue;
+}
+a:link{
+	color:red
+}
+a:hover{
+    background-color:yellow;
+}
+a:visited{
+    color:green;
+}
+a:active{
+    color: #000;
+}
+.description2{
+    width: 150px;
+    height: 100px; 
+}
+
+ol,ul{
+    margin-top: 40px;
+    font-family: monospace;
+}
+img{
+    height:300px;
+    width:400px;
+    margin-right:40px;
+    float:right;
+}
+h1,h5,h6,p{
+    font-family: monospace;
+}
+#green{
+    background-color:green;
+}
