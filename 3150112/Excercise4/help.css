@@ -3,7 +3,13 @@
 .item3 { grid-area: main; }
 .item4 { grid-area: right; }
 .item5 { grid-area: footer; }
-
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+h2{
+	font-family: myFirstFont;
+}
 .grid-container {
   display: grid;
   grid-template-areas:
@@ -54,11 +60,4 @@ body{
 }
 .th3{
   background-color:orange;
-}
-.hell{
-  width:34%
-}
-.imsize{
-  width:40%;
-  height:40%;
 }
