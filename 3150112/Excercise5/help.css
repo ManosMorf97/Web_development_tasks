@@ -1,5 +1,8 @@
 .item1 { grid-area: header; }
 .item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
 @font-face {
   font-family: myFirstFont;
   src: url(sansation_light.woff);
@@ -43,6 +46,9 @@ a{
 .definition2{
   background-color: darkblue;
 }
+.headm{
+  background-image: url("head.png")
+}
 body{
   background-color: aqua
 }
@@ -54,8 +60,4 @@ body{
 }
 .th3{
   background-color:orange;
-}
-img{
-  width:50%;
-  float:left;
 }
