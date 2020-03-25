@@ -13,8 +13,8 @@ h2{
     'header header header header header header'
     'menu main main main right right'
     'menu footer footer footer footer footer';
-  grid-gap: 10px;
-  padding: 10px;
+  grid-gap: 5%;
+  padding: 1%;
 }
 
 .grid-container > div {
@@ -29,10 +29,9 @@ h2{
 
 .flex-container > div {
   width: 50%;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
+  margin: 1%;
+  line-height: 120%;
+  font-size: 140%;
 }
 a{
 	color:blue
@@ -58,4 +57,19 @@ body{
 img{
   width:50%;
   float:left;
+}
+@media screen and (max-width: 600px){
+  .flex-container {
+  display: block;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+  width: 100%;
+  margin: 1%;
+  line-height: 120%;
+  font-size: 140%;
+}
+  
+
 }
