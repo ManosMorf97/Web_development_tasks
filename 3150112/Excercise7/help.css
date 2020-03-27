@@ -1,0 +1,76 @@
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: footer; }
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+h2{
+	font-family: myFirstFont;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 5%;
+  padding: 1%;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+  width: 50%;
+  margin: 1%;
+  line-height: 120%;
+  font-size: 140%;
+}
+a{
+	color:blue
+}
+#definition1{
+  background-color:blue;
+}
+#definition2{
+  background-color: darkblue;
+}
+body{
+  background-color: aqua
+}
+.th1{
+  background-color:red;
+}
+.th2{
+  background-color:yellow;
+}
+.th3{
+  background-color:orange;
+}
+img{
+  width:50%;
+  float:left;
+}
+@media screen and (max-width: 600px){
+  .flex-container {
+  display: block;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+  width: 100%;
+  margin: 1%;
+  line-height: 120%;
+  font-size: 140%;
+}
+  
+
+}
