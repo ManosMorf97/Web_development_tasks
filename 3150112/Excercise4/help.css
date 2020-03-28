@@ -37,10 +37,10 @@ h2{
 a{
 	color:purple
 }
-.definition1{
+#definition1{
   background-color:blue;
 }
-.definition2{
+#definition2{
   background-color: darkblue;
 }
 body{
