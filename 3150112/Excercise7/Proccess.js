@@ -4,22 +4,28 @@ let hide=true;
 const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday",
    "Saturday"
 ];
+function CreateDate(){
+	const d = new Date();
+	function createColors(){
 
-const d = new Date();
-if (dayNames[d.getDay()]=="Sunday")
-	document.getElementsByTagName('body')[0].style.backgroundColor="Crimson";
-else if (dayNames[d.getDay()]=="Monday")
-	document.getElementsByTagName('body')[0].style.backgroundColor="Coral";
-else if  (dayNames[d.getDay()]=="Tuesday")
-	document.getElementsByTagName('body')[0].style.backgroundColor="CadetBlue";
-else if  (dayNames[d.getDay()]=="Wednesday")
-	document.getElementsByTagName('body')[0].style.backgroundColor="CornflowerBlue";
-else if  (dayNames[d.getDay()]=="Thursday")
-	document.getElementsByTagName('body')[0].style.backgroundColor="Chartreuse";
-else if  (dayNames[d.getDay()]=="Friday")
-	document.getElementsByTagName('body')[0].style.backgroundColor="Aquamarine";
-else 
-	document.getElementsByTagName('body')[0].style.backgroundColor="Aqua";
+		if (dayNames[d.getDay()]=="Sunday")
+			document.getElementsByTagName('body')[0].style.backgroundColor="Crimson";
+		else if (dayNames[d.getDay()]=="Monday")
+			document.getElementsByTagName('body')[0].style.backgroundColor="Coral";
+		else if  (dayNames[d.getDay()]=="Tuesday")
+			document.getElementsByTagName('body')[0].style.backgroundColor="CadetBlue";
+		else if  (dayNames[d.getDay()]=="Wednesday")
+			document.getElementsByTagName('body')[0].style.backgroundColor="CornflowerBlue";
+		else if  (dayNames[d.getDay()]=="Thursday")
+			document.getElementsByTagName('body')[0].style.backgroundColor="Chartreuse";
+		else if  (dayNames[d.getDay()]=="Friday")
+			document.getElementsByTagName('body')[0].style.backgroundColor="Aquamarine";
+		else 
+			document.getElementsByTagName('body')[0].style.backgroundColor="Aqua";
+	}
+	createColors()
+}
+CreateDate()
 function DisappearContent(){
 	if(hide){
 		for(let i=0; i<2; i++)
