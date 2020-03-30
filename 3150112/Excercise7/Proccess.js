@@ -29,7 +29,7 @@ CreateDate()
 function DisappearContent(){
 	if(hide){
 		for(let i=0; i<2; i++)
-			document.getElementById(definitions[i]).innerHTML="<p>You disappeared the contents.</p>"
+			document.getElementById(definitions[i]).innerHTML="<p>Το περιεχόμενο εξαφανήστηκε</p>"
 		document.getElementById("Hide").innerHTML="Im useless now"
     }
     hide=!hide;
