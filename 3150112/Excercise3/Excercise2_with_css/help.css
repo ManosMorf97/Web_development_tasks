@@ -1,12 +1,12 @@
 .description{
     width: 150px;
     height: 170px;
-	margin:20px;
+    margin:20px;
 }
 .view{
     background-color:sandybrown;
     height: 100%;
-	width: 100%;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,7 +15,7 @@ table,th{
     border:8px solid blue;
 }
 a:link{
-	color:red
+    color:red
 }
 a:hover{
     background-color:yellow;
@@ -42,10 +42,10 @@ img{
 }
 h1,h5,h6,p{
     font-family: monospace;
-	font-size: large;
+    font-size: large;
 	
 }
 #green{
     background-color:green;
-	margin-top:100px;
+    margin-top:100px;
 }
