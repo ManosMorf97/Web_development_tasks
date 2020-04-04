@@ -1,0 +1,28 @@
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header';
+  grid-gap: 10px;
+  padding: 10px;
+}
+.item1 {
+  grid-area: header;
+}
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+table{
+  
+  width: 100%;
+}
+th{
+  background-color: darkKhaki;
+  width: :25%;
+}
+a{
+  text-decoration:none;
+  color:white;
+}
