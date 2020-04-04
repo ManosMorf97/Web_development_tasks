@@ -20,8 +20,8 @@ h2{
 
 .grid-container > div {
   text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+  padding: 4% 0;
+  font-size: 200%;
 }
 .flex-container {
   display: flex;

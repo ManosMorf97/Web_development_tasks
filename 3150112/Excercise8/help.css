@@ -1,28 +1,70 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+p{
+  font-family: myFirstFont;
+}
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header header header header header header';
-  grid-gap: 10px;
-  padding: 10px;
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 5%;
+  padding: 1%;
 }
-.item1 {
-  grid-area: header;
-}
+
 .grid-container > div {
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
 }
-
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.flex-c1{
+  width: 100%;
+  margin: 1%;
+  line-height: 120%;
+  font-size: 140%;
+}
+.flex-container > div {
+  width: 50%;
+  margin: 1%;
+  line-height: 120%;
+  font-size: 140%;
+}
+#definition1{
+  background-color:green;
+}
 table{
-  
+  background-color: darkKhaki;
   width: 100%;
 }
 th{
-  background-color: darkKhaki;
-  width: :25%;
+  width: 25%;
 }
 a{
   text-decoration:none;
   color:white;
+}
+body{
+  background-color: brown;
+}
+@media screen and (max-width: 600px){
+  .flex-container {
+    display: block;
+    flex-wrap: nowrap;
+  }
+
+.flex-container > div {
+    width: 100%;
+    margin: 1%;
+    line-height: 120%;
+    font-size: 140%;
+  }
+  
+
 }
