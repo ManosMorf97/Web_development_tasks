@@ -57,9 +57,7 @@ a{
   text-decoration:none;
   color:white;
 }
-body{
-  background-color: brown;
-}
+
 @media screen and (max-width: 600px){
   .flex-container,.flex-container2,.flex-container3 {
     display: block;
