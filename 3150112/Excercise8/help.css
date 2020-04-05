@@ -20,7 +20,7 @@ p{
   padding: 20px 0;
   font-size: 30px;
 }
-.flex-container {
+.flex-container.flex-container2 {
   display: flex;
   flex-wrap: nowrap;
 }
@@ -30,8 +30,14 @@ p{
   line-height: 120%;
   font-size: 140%;
 }
-.flex-container > div {
+.flex-container > div{
   width: 50%;
+  margin: 1%;
+  line-height: 120%;
+  font-size: 140%;
+}
+.flex-container2 > div{
+  width: 25%;
   margin: 1%;
   line-height: 120%;
   font-size: 140%;
@@ -59,7 +65,7 @@ body{
     flex-wrap: nowrap;
   }
 
-.flex-container > div {
+.flex-container > div .flex-container2 > div{
     width: 100%;
     margin: 1%;
     line-height: 120%;
