@@ -2,7 +2,7 @@
 .item2 { grid-area: menu; }
 @font-face {
   font-family: myFirstFont;
-  src: url(sansation_light.woff);
+  src: url('Baloo/BalooThambi2-Regular.ttf');
 }
 h2{
 	font-family: myFirstFont;
