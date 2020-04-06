@@ -1,10 +1,10 @@
 function loaded(){
-	document.getElementsByTagName("body")[0].style.backgroundColor="brown";
+	document.querySelector("body").style.backgroundColor="brown";
 }
 
-function hovered(x){
-	x.style.backgroundColor="yellow";        
+function hovered(id){
+	document.querySelector(id).style.backgroundColor="yellow";        
 }
-function unhovered(x){
-	x.style.backgroundColor="darkKhaki";
+function unhovered(id){
+	document.querySelector(id).style.backgroundColor="darkKhaki";
 }

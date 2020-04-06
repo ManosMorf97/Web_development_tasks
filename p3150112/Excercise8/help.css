@@ -14,7 +14,9 @@ h2{
   grid-gap: 5%;
   padding: 1%;
 }
-
+#th1,#th2,#th3,#th4{
+	background-color.darkKhaki
+}
 .grid-container > div {
   text-align: center;
   padding: 20px 0;
