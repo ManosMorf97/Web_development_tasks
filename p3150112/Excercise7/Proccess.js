@@ -1,7 +1,7 @@
 let definitions=['#definition1','#definition2'];
 let colors=['darkblue','blue'];
 let hide=true;
-function loaded(){
+window.onload= function(){
 	const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday",
 	   "Saturday"
 	];

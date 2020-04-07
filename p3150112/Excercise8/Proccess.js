@@ -1,4 +1,4 @@
-function loaded(){
+window.onload= function(){
 	document.querySelector("body").style.backgroundColor="brown";
 }
 
