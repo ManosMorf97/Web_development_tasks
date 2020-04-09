@@ -2,8 +2,9 @@
   font-family: myFirstFont;
   src: url('Baloo/BalooThambi2-Regular.ttf');
 }
-h2{
+p{
   font-family: myFirstFont;
+  font-size:large;
 }
 .grid-container {
   display: grid;
@@ -60,6 +61,15 @@ a{
 #bottom_image{
   width:100%;
   height:100%;
+}
+a:hover{
+	color:blue;
+}
+a:active{
+	color:red;
+}
+a:visited{
+	color:purple;
 }
 @media screen and (max-width: 600px){
   .flex-container,.flex-container2,.flex-container3 {
